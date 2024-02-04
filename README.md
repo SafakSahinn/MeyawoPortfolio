@@ -10,4 +10,5 @@
 
 -MSSQL
 
-# Project image
+# Project Image
+-Frontend images
