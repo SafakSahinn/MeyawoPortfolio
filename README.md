@@ -22,3 +22,7 @@
 ![Ekran görüntüsü 2024-02-04 143508](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/6459b850-39a2-4076-88c8-5dd0ff5d0b77)
 ![Ekran görüntüsü 2024-02-04 143610](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/0a8ae0d1-18fd-4491-86f2-74c38321cde4)
 ![Ekran görüntüsü 2024-02-04 143536](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/803c7fec-9d72-4bc3-b94f-aa06fa4f2140)
+
+# SQL Database Diagrams
+
+![Ekran görüntüsü 2024-02-04 143953](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/464cf95a-3177-4e27-8c8b-767c971b51d7)
