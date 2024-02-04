@@ -1,0 +1,74 @@
+﻿@model MeyawoPortfolio.Models.TblContact
+@{
+    ViewBag.Title = "ContactDetail";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<style>
+    .table-hover tbody tr:hover th,
+    .table-hover tbody tr:hover td {
+        font-size: 1.1em; /* veya istediğiniz büyüklük */
+        transition: all 0.3s; /* animasyon süresi */
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #333; /* Yazı rengi */
+        background-color: #f0f8ff; /* Tablo arka plan rengi */
+    }
+
+        .table thead th {
+            vertical-align: bottom;
+            border-bottom: 2px solid #dee2e6; /* Tablo üst çizgisi rengi */
+        }
+
+        .table th, .table td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6; /* Tablo iç çizgileri rengi */
+        }
+
+        .table tbody + tbody {
+            border-top: 2px solid #dee2e6; /* Tablo alt çizgisi rengi */
+        }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f8f9fa; /* Çizgili tablo arkaplan rengi */
+    }
+
+    .table-hover tbody tr:hover {
+        color: #007bff; /* Hover rengi */
+        background-color: #e9ecef; /* Hover arkaplan rengi */
+    }
+</style>
+
+<div class="container">
+    <h2 class="mt-4 mb-4">Mesaj Detayları</h2>
+
+    <table class="table table-bordered table-striped table-hover">
+        <tbody>
+            <tr>
+                <th scope="row" class="col-sm-3">Mesaj ID</th>
+                <td class="col-sm-9">@Model.ContactID</td>
+            </tr>
+            <tr>
+                <th scope="row" class="col-sm-3">Gönderen</th>
+                <td class="col-sm-9">@Model.NameSurname</td>
+            </tr>
+            <tr>
+                <th scope="row" class="col-sm-3">Kategori</th>
+                <td class="col-sm-9">@Model.Messagecategory</td>
+            </tr>
+            <tr>
+                <th scope="row" class="col-sm-3">Tarih</th>
+                <td class="col-sm-9">@Model.SendDate</td>
+            </tr>
+            <tr>
+                <th scope="row" class="col-sm-3">Mesaj</th>
+                <td class="col-sm-9">@Model.Message</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

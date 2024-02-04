@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<h2>İstatistikler</h2>
+
+<div class="alert alert-danger">Kategori Sayısı: @ViewBag.categoryCount</div>
+
+<div class="alert alert-warning">Proje Sayısı: @ViewBag.projectCount</div>
+
+<div class="alert alert-info">Mesaj Sayısı: @ViewBag.messageCount</div>
+
+<div class="alert alert-primary">Okunmamış Mesaj Sayısı: @ViewBag.isNotReadMessageCount</div>
+
+<div class="alert alert-dark">C# Proje Sayısı: @ViewBag.csProjectCount</div>
+
+<div class="alert alert-success">Eklenen Son Proje Adı: @ViewBag.lastProjectName</div>
+
+<div class="alert alert-danger">Referans Sayısı: @ViewBag.testimonialCount</div>
+

@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html, body, h1, h2, h3, h4, h5 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+</head>
+<body class="w3-light-grey">
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:25px;margin-top:25px;">
+
+        <!-- Header -->
+        <header class="w3-container" style="padding-top:22px">
+            <h5><b><i class="fa fa-dashboard"></i> Dashboard Paneli</b></h5>
+        </header>
+
+        <div class="w3-row-padding w3-margin-bottom">
+            <div class="w3-quarter">
+                <div class="w3-container w3-red w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.isNotReadMessageCount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Okunmamış Mesajlar</h4>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-container w3-blue w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-database w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.categoryCount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Kategoriler</h4>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-container w3-teal w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-cubes w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.projectCount</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Projeler</h4>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-cube w3-xxxlarge"></i></div>
+                    <div class="w3-right">
+                        <h3>@ViewBag.lastProjectName</h3>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <h4>Son Proje</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-panel">
+
+        </div>
+        <hr>
+        <div class="w3-container">
+            <h5><b><i class="fa fa-bar-chart"></i> Genel İstatistikler</b></h5>
+            <p>C# Projeleri</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-center w3-padding w3-green" style="width:55%">55</div>
+            </div>
+            <br />
+            <p>MVC Projeleri</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-center w3-padding w3-orange" style="width:30%">30</div>
+            </div>
+            <br />
+            <p>Asp.Net Projeleri</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-center w3-padding w3-red" style="width:25%">25</div>
+            </div>
+            <br />
+            <p>C Projeleri</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-center w3-padding w3-blue" style="width:80%">80</div>
+            </div>
+            <br />
+            <p>HTML-CSS</p>
+            <div class="w3-grey">
+                <div class="w3-container w3-center w3-padding w3-teal" style="width:15%">15</div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <script>
+        // Get the Sidebar
+        var mySidebar = document.getElementById("mySidebar");
+
+        // Get the DIV with overlay effect
+        var overlayBg = document.getElementById("myOverlay");
+
+        // Toggle between showing and hiding the sidebar, and add overlay effect
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+                overlayBg.style.display = "none";
+            } else {
+                mySidebar.style.display = 'block';
+                overlayBg.style.display = "block";
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+            overlayBg.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>
