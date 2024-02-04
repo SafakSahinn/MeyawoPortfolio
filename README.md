@@ -14,4 +14,4 @@
 -Frontend images
 ![Ekran görüntüsü 2024-02-04 142457](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/a2681062-0dbf-4118-bd38-c2812baa71aa)
 ![Ekran görüntüsü 2024-02-04 142544](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/dd3e29bf-8aad-4e38-a855-7499a6bd7dec)
-![Ekran görüntüsü 2024-02-04 142610](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/f928cadb-ae51-4e05-a449-1bbdbd3fb1e8)
+![Ekran görüntüsü 2024-02-04 143201](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/84801725-caf3-49d0-901b-e9bc3833a629)
