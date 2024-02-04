@@ -13,3 +13,4 @@
 # Project Image
 -Frontend images
 ![Ekran görüntüsü 2024-02-04 142457](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/a2681062-0dbf-4118-bd38-c2812baa71aa)
+![Ekran görüntüsü 2024-02-04 142544](https://github.com/SafakSahinn/MeyawoPortfolio/assets/123293425/dd3e29bf-8aad-4e38-a855-7499a6bd7dec)
