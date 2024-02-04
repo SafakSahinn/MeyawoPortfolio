@@ -10,6 +10,8 @@
 
 -MSSQL
 
+-HTML/CSS
+
 # Project Image
 -Frontend images
 
